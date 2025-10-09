@@ -21,14 +21,14 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
       <div className="absolute inset-0 bg-gradient-to-b from-blue-900/80 via-blue-900/60 to-blue-900/80 z-20" aria-hidden="true"></div>
       {/* Glassmorphic Card */}
       <div className="relative z-30 text-center px-4 max-w-4xl mx-auto mt-24 backdrop-blur-md bg-white/10 rounded-2xl shadow-xl border border-white/20 py-12">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-4 drop-shadow-lg">
+        <h1 className="text-4xl md:text-4xl lg:text-5xl font-extrabold mb-4 drop-shadow-lg">
           Szkoła Jazdy Machowski
         </h1>
         {/* Divider */}
-        <div className="flex justify-center mb-6">
+        <div className="flex justify-center mb-2">
           <span className="inline-block w-24 h-1 rounded-full bg-blue-400/70"></span>
         </div>
-        <p className="text-lg md:text-xl lg:text-2xl max-w-3xl mx-auto drop-shadow-md mb-8">
+        <p className="text-xl md:text-md lg:text-xl max-w-3xl mx-auto drop-shadow-md mb-4">
           Szkoła Jazdy Machowski to gwarancja profesjonalizmu, doświadczenia i nowoczesnego podejścia do nauki jazdy.
         </p>
         <a 

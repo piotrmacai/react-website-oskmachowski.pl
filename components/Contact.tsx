@@ -127,9 +127,9 @@ const Contact: React.FC = () => {
         </div>
 
         {/* Botpress Iframe Container - Placed below the title */}
-        <div className="mb-16 max-w-2xl mx-auto rounded-lg">
+        {/* <div className="mb-16 max-w-2xl mx-auto rounded-lg">
             <div id="webchat" style={{ width: '100%', height: '550px' }}></div>
-        </div>
+        </div> */}
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
@@ -153,7 +153,7 @@ const Contact: React.FC = () => {
           </div>
           <div className="h-96 lg:h-full w-full rounded-lg shadow-xl overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.492759972373!2d21.28580431572401!3d50.42171997947138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4717b2b8e3e46c7d%3A0x6e7e4a1a5b8e9b6e!2sOsiecka%2037%2C%2028-230%20Po%C5%82aniec%2C%20Poland!5e0!3m2!1sen!2sus!4v1689254321098!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d455.7465011492188!2d21.294629980551324!3d50.442376734261856!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d50.4425473!2d21.2948982!5e1!3m2!1sen!2sus!4v1760035495392!5m2!1sen!2sus"
               width="100%"
               height="100%"
               style={{ border: 0 }}
