@@ -8,6 +8,7 @@ import ContactPage from './pages/ContactPage';
 import ServicePage from './pages/ServicePage';
 import { servicesData } from './data/services';
 import BotpressChat from "./components/BotpressChat";
+import VoiceflowChat from './components/Voiceflow';
 
 const App: React.FC = () => {
   const [page, setPage] = useState<{ name: string, anchor?: string }>({ name: 'home' });
@@ -60,7 +61,8 @@ const App: React.FC = () => {
           {renderPage()}
         </div>
       </main>
-      <Footer /><BotpressChat />
+      <Footer />
+      <VoiceflowChat />
     </div>
   );
 };
